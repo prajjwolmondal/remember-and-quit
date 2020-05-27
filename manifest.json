@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Remember and quit",
+  "description": "On the click of a button, save all the tabs you have open as bookmarks and close the window",
+  "version": "0.0.1",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "64": "icons/icon.png"
+    },
+    "default_title": "Remember and quit",
+    "browser_style": true,
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": [
+    "bookmarks",
+    "tabs"
+  ]
+}
